@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App.tsx";
+import App from "./App";
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 
