@@ -1,10 +1,13 @@
 {
   "name": "liff_react",
   "version": "0.0.0",
+  "homepage": "https://dmasuda1116.github.io/LIFF/",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build": "tsc && vite build && cp -r dist docs",
+    "rebuild": "vite build && rm -R docs && cp -r dist docs",
+    "git": "git add . && git commit && git push origin main"
   },
   "dependencies": {
     "@line/liff": "2.21.4",
